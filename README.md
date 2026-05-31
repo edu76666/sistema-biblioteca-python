@@ -1,89 +1,34 @@
-# 📚 Sistema de Biblioteca em Python
-![Python](https://img.shields.io/badge/Python-3.14.3-blue)
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+# Sistema de Biblioteca em Python
 
-## 📌 Descrição
-Sistema de gerenciamento de biblioteca desenvolvido para praticar manipulação de listas e estruturas de dados em Python.
+Sistema de gerenciamento de biblioteca com cadastro, empréstimo,
+devolução e estatísticas — desenvolvido em Python puro com
+arquitetura modular.
 
-## Versão 3.0 - Refatoração completa
+## Funcionalidades
 
-## ⚙️ Funcionalidades
-- Cadastro de livros
-- Listagem
-- Busca
-- Remoção
+- Cadastro e remoção de livros
+- Empréstimo e devolução com controle de disponibilidade
+- Busca por título e autor (case-insensitive)
+- Estatísticas do acervo
 
-## ▶️ Como executar
+## Como executar
 
-```bash
+git clone https://github.com/edu76666/sistema-biblioteca-python
+cd sistema-biblioteca-python
 python main.py
-```
 
-## 🛠️ Tecnologias
-- Python
-- Estruturas de dados (dicionários)
+## Tecnologias
 
-## 📚 Conceitos aplicados
+- Python 3.14
+- Estrutura modular (funções separadas por responsabilidade)
+- Dicionários para modelagem de entidades
 
-- Estruturas de dados
-- Organização modular
-- Refatoração de código
+## Sobre o projeto
 
-## 🎯 Versão anterior
+Projeto refatorado 3 vezes — a versão atual (v3.0) substituiu
+listas paralelas por dicionários e separou responsabilidades
+em funções independentes, melhorando legibilidade e manutenção.
 
-- Gerenciava 3 listas paralelas separadas
-- Sincronização manual entre listas
-- Difícil manutenção
+## Autor
 
-## 🛠️ Melhorias da v3.0
-
-- Muito mais legível
-- Estrutura de dados adequada
-- Usa True/False em vez de strings
-- Usa funções modulares
-- Melhor manutenibilidade
-
-## 🏗️ Arquitetura (v3.0)
-```
-main()
- └── menu()
-      ├── adicionar_livro()
-      ├── emprestar_livro()
-      ├── devolver_livro()
-      ├── ver_livros()
-      ├── ver_disponiveis()
-      ├── busca_titulo()
-      ├── livro_autor()
-      └── estatistica()
-```
-
-### Conceitos Aplicados
-
-- **Manipulação de dicionários**
-- **Estruturas de controle (if/elif/else)**
-- **Loops e iterações**
-- **Validação de entrada**
-- **Booleanos vs Strings**
-- **Funções modulares**
-- **Main guard pattern**
-- **List comprehension**
-- **Case-insensitive search**
-- **Código testável e manutenível**
-
-## 🔄 Histórico de Commits
-
-- `refactor: modularize code with functions` (v3.0)
-- `docs: add comprehensive README` (v2.0)
-- `refactor: replace parallel lists with dictionaries` (v2.0)
-- `feat: initial library system` (v1.0)
-
-## 📂 Autor
-
-Eduardo Cruz Junior  
-Estudante de Análise e Desenvolvimento de Sistemas
-
-## 📫 Contato
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/educruzjr/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/edu76666)
+Eduardo Cruz Junior — LinkedIn · GitHub
